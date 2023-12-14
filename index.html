@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- my css file -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- javascript file -->
+  <script src="js/main.js" defer></script>
+  
+</head>
+<body>
+  <header class="header">
+    <nav class="header-container container">
+      <div class="left-side">
+        <a href="index.html" class="logo">
+          <img src="images/logo.svg" alt="">
+        </a>
+        <ul class="list hide-for-mobile">
+          <li>
+            <a href="#">Features</a>
+          </li>
+          <li>
+            <a href="#">Pricing</a>
+          </li>
+          <li>
+            <a href="#">Resources</a>
+          </li>
+        </ul>
+      </div>
+
+      <button class="toggle hide-for-desktop">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="header-links hide-for-desktop">
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+        <a href="#">Resources</a>
+        <button class="btn">Login</button>
+        <button class="primary-btn btn">Sign Up</button>
+      </div>
+
+      <div class="right-side hide-for-mobile">
+        <button class="btn">Login</button>
+        <button class="primary-btn btn">Sign Up</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="hero section-padding">
+      <div class="hero-container">
+        <div class="content">
+          <h1>More than just shorter links</h1>
+          <p class="description">Build your brand’s recognition and get detailed insights 
+            on how your links are performing.</p>
+          <a class="primary-btn" href="#">Get Started</a>
+        </div>
+        <div class="image">
+          <img src="images/illustration-working.svg" alt="working">
+        </div>
+      </div>
+    </section>
+
+    <section class="url-section">
+      <div class="url-container container">
+        <div class="url-form">
+          <div>
+            <input type="text" placeholder="Shorten a link here..." class="url-input">
+            <button class="submit" id="submit-url">Shorten It!</button>
+          </div>
+          <p class="massage"></p>
+        </div>
+        
+
+      </div>
+    </section>
+    <section class="stats section-padding">
+      <div class="container">
+
+        <h2 class="text-center">Advanced Statistics</h2>
+        <p class="info text-center">Track how your links are performing across the web with our 
+          advanced statistics dashboard.</p>
+        
+        <div class="content">
+          <div class="card">
+            <img src="images/icon-brand-recognition.svg" alt="">
+            <h3>Brand Recognition</h3>
+            <p>Boost your brand recognition with each click. Generic links don’t 
+              mean a thing. Branded links help instil confidence in your content.</p>
+          </div>
+
+          <div class="card">
+            <img src="images/icon-detailed-records.svg" alt="">
+            <h3>Detailed Records</h3>
+            <p>Gain insights into who is clicking your links. Knowing when and where 
+              people engage with your content helps inform better decisions.</p>
+          </div>
+
+          <div class="card">
+            <img src="images/icon-fully-customizable.svg" alt="">
+            <h3>Fully Customizable</h3>
+            <p>Improve brand awareness and content discoverability through customizable 
+              links, supercharging audience engagement.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="boost section-padding">
+      <div class="container">
+        <h2>Boost your links today</h2>
+        <a class="primary-btn" href="#">Get Started</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-padding">
+    <div class="footer-container container">
+      <a class="logo" href="index.html">
+        <img src="images/logo.svg" alt="">
+      </a>
+
+      <div class="footer-item">
+        <h4>Features</h4>
+        <div>
+          <a href="#">Link Shortening</a>
+          <a href="#">Branded Links</a>
+          <a href="#">Analytics</a>
+        </div>
+      </div>
+
+      <div class="footer-item">
+        <h4>Resources</h4>
+        <div>
+          <a href="#">Blog</a>
+          <a href="#">Developers</a>
+          <a href="#">Support</a>
+        </div>
+      </div>
+
+      <div class="footer-item">
+        <h4>Company</h4>
+        <div>
+          <a href="#">About</a>
+          <a href="#">Our Team</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+
+      <div class="links">
+        <a href="#">
+          <img src="images/icon-facebook.svg" alt="Facebook">
+        </a>
+
+        <a href="#">
+          <img src="images/icon-twitter.svg" alt="Twitter">
+        </a>
+        <a href="#">
+          <img src="images/icon-pinterest.svg" alt="Pinterest">
+        </a>
+        <a href="#">
+          <img src="images/icon-instagram.svg" alt="Instagram">
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
